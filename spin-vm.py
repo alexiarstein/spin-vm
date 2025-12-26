@@ -213,12 +213,7 @@ def main():
         
         print(f"Starting RUN mode ({'UEFI' if is_uefi else 'BIOS'})")
         qemu_args.extend(["-boot", "order=c"])
-        
-        # Ask to remove disk/CDROM? 
-        # The user asked: "is there a way to remove the disk and run from the virtual drive after install is complete?"
-        # In 'run' mode, we already don't include -cdrom by default in the logic above.
-        # But maybe they want to run it immediately after install?
-        # For now, separate modes follow their existing logic.
+    
 
     # Launch
     print(f"Launching QEMU: {' '.join(qemu_args)}")
