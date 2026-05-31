@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lexvm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-16 00:00+0000\n"
+"PO-Revision-Date: 2026-05-16 00:00+0000\n"
+"Last-Translator: Alexia Steinberg\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lexvm.py
+msgid "LexVM - A Virtual Machine Creator"
+msgstr "LexVM - एक वर्चुअल मशीन निर्माता"
+
+#: lexvm.py
+msgid "Action"
+msgstr "क्रिया"
+
+#: lexvm.py
+msgid "Mode"
+msgstr "मोड"
+
+#: lexvm.py
+msgid "Install"
+msgstr "इंस्टॉल करें"
+
+#: lexvm.py
+msgid "Run"
+msgstr "चलाएं"
+
+#: lexvm.py
+msgid "Paths"
+msgstr "पथ"
+
+#: lexvm.py
+msgid "ISO image"
+msgstr "ISO छवि"
+
+#: lexvm.py
+msgid "No image selected"
+msgstr "कोई छवि चयनित नहीं"
+
+#: lexvm.py
+msgid "Choose ISO image"
+msgstr "ISO छवि चुनें"
+
+#: lexvm.py
+msgid "Not selected"
+msgstr "चयनित नहीं"
+
+#: lexvm.py
+msgid "Virtual disk directory"
+msgstr "वर्चुअल डिस्क निर्देशिका"
+
+#: lexvm.py
+msgid "Choose virtual disk directory"
+msgstr "वर्चुअल डिस्क निर्देशिका चुनें"
+
+#: lexvm.py
+msgid "Virtual machine"
+msgstr "वर्चुअल मशीन"
+
+#: lexvm.py
+msgid "VM name"
+msgstr "VM नाम"
+
+#: lexvm.py
+msgid "Boot mode"
+msgstr "बूट मोड"
+
+#: lexvm.py
+msgid "UEFI (Recommended)"
+msgstr "UEFI (अनुशंसित)"
+
+#: lexvm.py
+msgid "Resources"
+msgstr "संसाधन"
+
+#: lexvm.py
+msgid "RAM"
+msgstr "RAM"
+
+#: lexvm.py
+msgid "vCPUs"
+msgstr "vCPUs"
+
+#: lexvm.py
+msgid "Disk"
+msgstr "डिस्क"
+
+#: lexvm.py
+msgid "Existing disks / VMs"
+msgstr "मौजूदा डिस्क / VMs"
+
+#: lexvm.py
+msgid "Select an existing disk to populate VM name and boot mode, then launch."
+msgstr "VM नाम और बूट मोड भरने के लिए मौजूदा डिस्क चुनें, फिर लॉन्च करें।"
+
+#: lexvm.py
+msgid "Delete VM"
+msgstr "VM हटाएं"
+
+#: lexvm.py
+msgid "Launch VM"
+msgstr "VM लॉन्च करें"
+
+#: lexvm.py
+msgid "Exit"
+msgstr "बाहर निकलें"
+
+#: lexvm.py
+msgid "File"
+msgstr "फ़ाइल"
+
+#: lexvm.py
+msgid "Help"
+msgstr "सहायता"
+
+#: lexvm.py
+msgid "About"
+msgstr "के बारे में"
+
+#: lexvm.py
+msgid "About LexVM"
+msgstr "LexVM के बारे में"
+
+#: lexvm.py
+msgid "Help placeholder. We can add full documentation here later."
+msgstr "सहायता प्लेसहोल्डर। यहाँ बाद में पूर्ण दस्तावेज़ीकरण जोड़ा जा सकता है।"
+
+#: lexvm.py
+msgid "About placeholder. Version and credits can be added later."
+msgstr "प्लेसहोल्डर। संस्करण और क्रेडिट बाद में जोड़े जा सकते हैं।"
+
+#: lexvm.py
+msgid "Select ISO image"
+msgstr "ISO छवि चुनें"
+
+#: lexvm.py
+msgid "Select"
+msgstr "चुनें"
+
+#: lexvm.py
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: lexvm.py
+msgid "ISO images"
+msgstr "ISO छवियाँ"
+
+#: lexvm.py
+msgid "Select VM directory"
+msgstr "VM निर्देशिका चुनें"
+
+#: lexvm.py
+msgid "Not required in run mode"
+msgstr "चलाने के मोड में आवश्यक नहीं"
+
+#: lexvm.py
+msgid "{} cores"
+msgstr "{} कोर"
+
+#: lexvm.py
+msgid "Close"
+msgstr "बंद करें"
+
+#: lexvm.py
+msgid "Disk already exists"
+msgstr "डिस्क पहले से मौजूद है"
+
+#: lexvm.py
+msgid "Overwrite existing virtual disk and continue install?"
+msgstr "मौजूदा वर्चुअल डिस्क को अधिलेखित करें और इंस्टॉलेशन जारी रखें?"
+
+#: lexvm.py
+msgid "Overwrite"
+msgstr "अधिलेखित करें"
+
+#: lexvm.py
+msgid "Delete VM from disk"
+msgstr "डिस्क से VM हटाएं"
+
+#: lexvm.py
+msgid "The selected VM disk will be permanently deleted:\n\n"
+msgstr "चुनी गई VM डिस्क स्थायी रूप से हटा दी जाएगी:\n\n"
+
+#: lexvm.py
+msgid "\n\nAssociated firmware state will also be removed."
+msgstr "\n\nसंबंधित फर्मवेयर स्थिति भी हटा दी जाएगी।"
+
+#: lexvm.py
+msgid "Delete"
+msgstr "हटाएं"
+
+#: lexvm.py
+msgid "Deleted VM disk: {}"
+msgstr "VM डिस्क हटाई गई: {}"
+
+#: lexvm.py
+msgid "Delete failed"
+msgstr "हटाना विफल"
+
+#: lexvm.py
+msgid "Selected existing disk: {}"
+msgstr "मौजूदा डिस्क चुनी गई: {}"
+
+#: lexvm.py
+msgid "Virtual disk not found"
+msgstr "वर्चुअल डिस्क नहीं मिली"
+
+#: lexvm.py
+msgid "Install the VM first or adjust VM name/boot mode."
+msgstr "पहले VM इंस्टॉल करें या VM नाम/बूट मोड समायोजित करें।"
+
+#: lexvm.py
+msgid "VM launched"
+msgstr "VM लॉन्च की गई"
+
+#: lexvm.py
+msgid "QEMU error"
+msgstr "QEMU त्रुटि"
+
+#: lexvm.py
+msgid "Unexpected error"
+msgstr "अप्रत्याशित त्रुटि"
+
+#: lexvm.py
+msgid "No virtual disks found in selected directory."
+msgstr "चुनी गई निर्देशिका में कोई वर्चुअल डिस्क नहीं मिली।"
+
+#: lexvm.py
+msgid "Dependency missing: {}"
+msgstr "निर्भरता अनुपस्थित: {}"
+
+#: lexvm.py
+msgid "UEFI firmware missing: install package ovmf"
+msgstr "UEFI फर्मवेयर अनुपस्थित: ovmf पैकेज इंस्टॉल करें"
+
+#: lexvm.py
+msgid "Select an ISO image for install mode"
+msgstr "इंस्टॉल मोड के लिए ISO छवि चुनें"
+
+#: lexvm.py
+msgid "Selected ISO path is invalid"
+msgstr "चुना गया ISO पथ अमान्य है"
+
+#: lexvm.py
+msgid "VM name is required"
+msgstr "VM नाम आवश्यक है"
+
+#: lexvm.py
+msgid "VM name cannot include '/'"
+msgstr "VM नाम में '/' नहीं हो सकता"
+
+#: lexvm.py
+msgid "Cannot launch VM"
+msgstr "VM लॉन्च नहीं हो सकती"

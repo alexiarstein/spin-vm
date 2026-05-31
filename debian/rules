@@ -1,0 +1,29 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	# Compile translation files
+	for lang in es pt_BR de fr nl ja zh_CN hi; do \
+		msgfmt locale/$$lang/LC_MESSAGES/lexvm.po \
+		       -o locale/$$lang/LC_MESSAGES/lexvm.mo; \
+	done
+
+override_dh_auto_install:
+	dh_auto_install
+	# Install translations
+	for lang in es pt_BR de fr nl ja zh_CN hi; do \
+		install -D -m 644 locale/$$lang/LC_MESSAGES/lexvm.mo \
+		        debian/lexvm/usr/share/locale/$$lang/LC_MESSAGES/lexvm.mo; \
+	done
+	# Install app icon
+	install -D -m 644 lexvm.svg \
+	        debian/lexvm/usr/share/icons/hicolor/scalable/apps/lexvm.svg
+	# Create symlink for main executable
+	mkdir -p debian/lexvm/usr/bin
+	ln -s /usr/share/lexvm/lexvm.py debian/lexvm/usr/bin/lexvm
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod +x debian/lexvm/usr/share/lexvm/lexvm.py

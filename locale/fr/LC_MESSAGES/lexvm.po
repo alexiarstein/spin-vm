@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lexvm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-16 00:00+0000\n"
+"PO-Revision-Date: 2026-05-16 00:00+0000\n"
+"Last-Translator: Alexia Steinberg\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lexvm.py
+msgid "LexVM - A Virtual Machine Creator"
+msgstr "LexVM - Un créateur de machines virtuelles"
+
+#: lexvm.py
+msgid "Action"
+msgstr "Action"
+
+#: lexvm.py
+msgid "Mode"
+msgstr "Mode"
+
+#: lexvm.py
+msgid "Install"
+msgstr "Installer"
+
+#: lexvm.py
+msgid "Run"
+msgstr "Exécuter"
+
+#: lexvm.py
+msgid "Paths"
+msgstr "Chemins"
+
+#: lexvm.py
+msgid "ISO image"
+msgstr "Image ISO"
+
+#: lexvm.py
+msgid "No image selected"
+msgstr "Aucune image sélectionnée"
+
+#: lexvm.py
+msgid "Choose ISO image"
+msgstr "Choisir une image ISO"
+
+#: lexvm.py
+msgid "Not selected"
+msgstr "Non sélectionné"
+
+#: lexvm.py
+msgid "Virtual disk directory"
+msgstr "Répertoire du disque virtuel"
+
+#: lexvm.py
+msgid "Choose virtual disk directory"
+msgstr "Choisir le répertoire du disque virtuel"
+
+#: lexvm.py
+msgid "Virtual machine"
+msgstr "Machine virtuelle"
+
+#: lexvm.py
+msgid "VM name"
+msgstr "Nom de VM"
+
+#: lexvm.py
+msgid "Boot mode"
+msgstr "Mode de démarrage"
+
+#: lexvm.py
+msgid "UEFI (Recommended)"
+msgstr "UEFI (Recommandé)"
+
+#: lexvm.py
+msgid "Resources"
+msgstr "Ressources"
+
+#: lexvm.py
+msgid "RAM"
+msgstr "RAM"
+
+#: lexvm.py
+msgid "vCPUs"
+msgstr "vCPUs"
+
+#: lexvm.py
+msgid "Disk"
+msgstr "Disque"
+
+#: lexvm.py
+msgid "Existing disks / VMs"
+msgstr "Disques / VMs existants"
+
+#: lexvm.py
+msgid "Select an existing disk to populate VM name and boot mode, then launch."
+msgstr "Sélectionnez un disque existant pour remplir le nom de VM et le mode de démarrage, puis lancez."
+
+#: lexvm.py
+msgid "Delete VM"
+msgstr "Supprimer la VM"
+
+#: lexvm.py
+msgid "Launch VM"
+msgstr "Lancer la VM"
+
+#: lexvm.py
+msgid "Exit"
+msgstr "Quitter"
+
+#: lexvm.py
+msgid "File"
+msgstr "Fichier"
+
+#: lexvm.py
+msgid "Help"
+msgstr "Aide"
+
+#: lexvm.py
+msgid "About"
+msgstr "À propos"
+
+#: lexvm.py
+msgid "About LexVM"
+msgstr "À propos de LexVM"
+
+#: lexvm.py
+msgid "Help placeholder. We can add full documentation here later."
+msgstr "Espace réservé. La documentation complète peut être ajoutée ici plus tard."
+
+#: lexvm.py
+msgid "About placeholder. Version and credits can be added later."
+msgstr "Espace réservé. La version et les crédits peuvent être ajoutés plus tard."
+
+#: lexvm.py
+msgid "Select ISO image"
+msgstr "Sélectionner une image ISO"
+
+#: lexvm.py
+msgid "Select"
+msgstr "Sélectionner"
+
+#: lexvm.py
+msgid "Cancel"
+msgstr "Annuler"
+
+#: lexvm.py
+msgid "ISO images"
+msgstr "Images ISO"
+
+#: lexvm.py
+msgid "Select VM directory"
+msgstr "Sélectionner le répertoire VM"
+
+#: lexvm.py
+msgid "Not required in run mode"
+msgstr "Non requis en mode exécution"
+
+#: lexvm.py
+msgid "{} cores"
+msgstr "{} cœurs"
+
+#: lexvm.py
+msgid "Close"
+msgstr "Fermer"
+
+#: lexvm.py
+msgid "Disk already exists"
+msgstr "Le disque existe déjà"
+
+#: lexvm.py
+msgid "Overwrite existing virtual disk and continue install?"
+msgstr "Écraser le disque virtuel existant et continuer l'installation ?"
+
+#: lexvm.py
+msgid "Overwrite"
+msgstr "Écraser"
+
+#: lexvm.py
+msgid "Delete VM from disk"
+msgstr "Supprimer la VM du disque"
+
+#: lexvm.py
+msgid "The selected VM disk will be permanently deleted:\n\n"
+msgstr "Le disque VM sélectionné sera supprimé définitivement :\n\n"
+
+#: lexvm.py
+msgid "\n\nAssociated firmware state will also be removed."
+msgstr "\n\nL'état du firmware associé sera également supprimé."
+
+#: lexvm.py
+msgid "Delete"
+msgstr "Supprimer"
+
+#: lexvm.py
+msgid "Deleted VM disk: {}"
+msgstr "Disque VM supprimé : {}"
+
+#: lexvm.py
+msgid "Delete failed"
+msgstr "Échec de la suppression"
+
+#: lexvm.py
+msgid "Selected existing disk: {}"
+msgstr "Disque existant sélectionné : {}"
+
+#: lexvm.py
+msgid "Virtual disk not found"
+msgstr "Disque virtuel introuvable"
+
+#: lexvm.py
+msgid "Install the VM first or adjust VM name/boot mode."
+msgstr "Installez d'abord la VM ou ajustez le nom/mode de démarrage."
+
+#: lexvm.py
+msgid "VM launched"
+msgstr "VM lancée"
+
+#: lexvm.py
+msgid "QEMU error"
+msgstr "Erreur QEMU"
+
+#: lexvm.py
+msgid "Unexpected error"
+msgstr "Erreur inattendue"
+
+#: lexvm.py
+msgid "No virtual disks found in selected directory."
+msgstr "Aucun disque virtuel trouvé dans le répertoire sélectionné."
+
+#: lexvm.py
+msgid "Dependency missing: {}"
+msgstr "Dépendance manquante : {}"
+
+#: lexvm.py
+msgid "UEFI firmware missing: install package ovmf"
+msgstr "Firmware UEFI manquant : installez le paquet ovmf"
+
+#: lexvm.py
+msgid "Select an ISO image for install mode"
+msgstr "Sélectionnez une image ISO pour le mode installation"
+
+#: lexvm.py
+msgid "Selected ISO path is invalid"
+msgstr "Le chemin ISO sélectionné est invalide"
+
+#: lexvm.py
+msgid "VM name is required"
+msgstr "Le nom de VM est requis"
+
+#: lexvm.py
+msgid "VM name cannot include '/'"
+msgstr "Le nom de VM ne peut pas contenir '/'"
+
+#: lexvm.py
+msgid "Cannot launch VM"
+msgstr "Impossible de lancer la VM"

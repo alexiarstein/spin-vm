@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lexvm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-16 00:00+0000\n"
+"PO-Revision-Date: 2026-05-16 00:00+0000\n"
+"Last-Translator: Alexia Steinberg\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lexvm.py
+msgid "LexVM - A Virtual Machine Creator"
+msgstr "LexVM - 虚拟机创建工具"
+
+#: lexvm.py
+msgid "Action"
+msgstr "操作"
+
+#: lexvm.py
+msgid "Mode"
+msgstr "模式"
+
+#: lexvm.py
+msgid "Install"
+msgstr "安装"
+
+#: lexvm.py
+msgid "Run"
+msgstr "运行"
+
+#: lexvm.py
+msgid "Paths"
+msgstr "路径"
+
+#: lexvm.py
+msgid "ISO image"
+msgstr "ISO 镜像"
+
+#: lexvm.py
+msgid "No image selected"
+msgstr "未选择镜像"
+
+#: lexvm.py
+msgid "Choose ISO image"
+msgstr "选择 ISO 镜像"
+
+#: lexvm.py
+msgid "Not selected"
+msgstr "未选择"
+
+#: lexvm.py
+msgid "Virtual disk directory"
+msgstr "虚拟磁盘目录"
+
+#: lexvm.py
+msgid "Choose virtual disk directory"
+msgstr "选择虚拟磁盘目录"
+
+#: lexvm.py
+msgid "Virtual machine"
+msgstr "虚拟机"
+
+#: lexvm.py
+msgid "VM name"
+msgstr "虚拟机名称"
+
+#: lexvm.py
+msgid "Boot mode"
+msgstr "启动模式"
+
+#: lexvm.py
+msgid "UEFI (Recommended)"
+msgstr "UEFI（推荐）"
+
+#: lexvm.py
+msgid "Resources"
+msgstr "资源"
+
+#: lexvm.py
+msgid "RAM"
+msgstr "RAM"
+
+#: lexvm.py
+msgid "vCPUs"
+msgstr "vCPUs"
+
+#: lexvm.py
+msgid "Disk"
+msgstr "磁盘"
+
+#: lexvm.py
+msgid "Existing disks / VMs"
+msgstr "现有磁盘 / 虚拟机"
+
+#: lexvm.py
+msgid "Select an existing disk to populate VM name and boot mode, then launch."
+msgstr "选择现有磁盘以填写虚拟机名称和启动模式，然后启动。"
+
+#: lexvm.py
+msgid "Delete VM"
+msgstr "删除虚拟机"
+
+#: lexvm.py
+msgid "Launch VM"
+msgstr "启动虚拟机"
+
+#: lexvm.py
+msgid "Exit"
+msgstr "退出"
+
+#: lexvm.py
+msgid "File"
+msgstr "文件"
+
+#: lexvm.py
+msgid "Help"
+msgstr "帮助"
+
+#: lexvm.py
+msgid "About"
+msgstr "关于"
+
+#: lexvm.py
+msgid "About LexVM"
+msgstr "关于 LexVM"
+
+#: lexvm.py
+msgid "Help placeholder. We can add full documentation here later."
+msgstr "帮助占位符。完整文档可以稍后添加到这里。"
+
+#: lexvm.py
+msgid "About placeholder. Version and credits can be added later."
+msgstr "占位符。版本和致谢可以稍后添加。"
+
+#: lexvm.py
+msgid "Select ISO image"
+msgstr "选择 ISO 镜像"
+
+#: lexvm.py
+msgid "Select"
+msgstr "选择"
+
+#: lexvm.py
+msgid "Cancel"
+msgstr "取消"
+
+#: lexvm.py
+msgid "ISO images"
+msgstr "ISO 镜像"
+
+#: lexvm.py
+msgid "Select VM directory"
+msgstr "选择虚拟机目录"
+
+#: lexvm.py
+msgid "Not required in run mode"
+msgstr "运行模式不需要"
+
+#: lexvm.py
+msgid "{} cores"
+msgstr "{} 核"
+
+#: lexvm.py
+msgid "Close"
+msgstr "关闭"
+
+#: lexvm.py
+msgid "Disk already exists"
+msgstr "磁盘已存在"
+
+#: lexvm.py
+msgid "Overwrite existing virtual disk and continue install?"
+msgstr "覆盖现有虚拟磁盘并继续安装？"
+
+#: lexvm.py
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: lexvm.py
+msgid "Delete VM from disk"
+msgstr "从磁盘删除虚拟机"
+
+#: lexvm.py
+msgid "The selected VM disk will be permanently deleted:\n\n"
+msgstr "所选虚拟机磁盘将被永久删除：\n\n"
+
+#: lexvm.py
+msgid "\n\nAssociated firmware state will also be removed."
+msgstr "\n\n关联的固件状态也将被删除。"
+
+#: lexvm.py
+msgid "Delete"
+msgstr "删除"
+
+#: lexvm.py
+msgid "Deleted VM disk: {}"
+msgstr "虚拟机磁盘已删除：{}"
+
+#: lexvm.py
+msgid "Delete failed"
+msgstr "删除失败"
+
+#: lexvm.py
+msgid "Selected existing disk: {}"
+msgstr "已选择现有磁盘：{}"
+
+#: lexvm.py
+msgid "Virtual disk not found"
+msgstr "未找到虚拟磁盘"
+
+#: lexvm.py
+msgid "Install the VM first or adjust VM name/boot mode."
+msgstr "请先安装虚拟机或调整虚拟机名称/启动模式。"
+
+#: lexvm.py
+msgid "VM launched"
+msgstr "虚拟机已启动"
+
+#: lexvm.py
+msgid "QEMU error"
+msgstr "QEMU 错误"
+
+#: lexvm.py
+msgid "Unexpected error"
+msgstr "意外错误"
+
+#: lexvm.py
+msgid "No virtual disks found in selected directory."
+msgstr "在所选目录中未找到虚拟磁盘。"
+
+#: lexvm.py
+msgid "Dependency missing: {}"
+msgstr "缺少依赖项：{}"
+
+#: lexvm.py
+msgid "UEFI firmware missing: install package ovmf"
+msgstr "缺少 UEFI 固件：请安装 ovmf 包"
+
+#: lexvm.py
+msgid "Select an ISO image for install mode"
+msgstr "请为安装模式选择 ISO 镜像"
+
+#: lexvm.py
+msgid "Selected ISO path is invalid"
+msgstr "所选 ISO 路径无效"
+
+#: lexvm.py
+msgid "VM name is required"
+msgstr "需要填写虚拟机名称"
+
+#: lexvm.py
+msgid "VM name cannot include '/'"
+msgstr "虚拟机名称不能包含'/'"
+
+#: lexvm.py
+msgid "Cannot launch VM"
+msgstr "无法启动虚拟机"

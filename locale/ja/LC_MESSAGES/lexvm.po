@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lexvm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-16 00:00+0000\n"
+"PO-Revision-Date: 2026-05-16 00:00+0000\n"
+"Last-Translator: Alexia Steinberg\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lexvm.py
+msgid "LexVM - A Virtual Machine Creator"
+msgstr "LexVM - 仮想マシン作成ツール"
+
+#: lexvm.py
+msgid "Action"
+msgstr "操作"
+
+#: lexvm.py
+msgid "Mode"
+msgstr "モード"
+
+#: lexvm.py
+msgid "Install"
+msgstr "インストール"
+
+#: lexvm.py
+msgid "Run"
+msgstr "実行"
+
+#: lexvm.py
+msgid "Paths"
+msgstr "パス"
+
+#: lexvm.py
+msgid "ISO image"
+msgstr "ISO イメージ"
+
+#: lexvm.py
+msgid "No image selected"
+msgstr "イメージが選択されていません"
+
+#: lexvm.py
+msgid "Choose ISO image"
+msgstr "ISO イメージを選択"
+
+#: lexvm.py
+msgid "Not selected"
+msgstr "未選択"
+
+#: lexvm.py
+msgid "Virtual disk directory"
+msgstr "仮想ディスクディレクトリ"
+
+#: lexvm.py
+msgid "Choose virtual disk directory"
+msgstr "仮想ディスクディレクトリを選択"
+
+#: lexvm.py
+msgid "Virtual machine"
+msgstr "仮想マシン"
+
+#: lexvm.py
+msgid "VM name"
+msgstr "VM 名"
+
+#: lexvm.py
+msgid "Boot mode"
+msgstr "ブートモード"
+
+#: lexvm.py
+msgid "UEFI (Recommended)"
+msgstr "UEFI (推奨)"
+
+#: lexvm.py
+msgid "Resources"
+msgstr "リソース"
+
+#: lexvm.py
+msgid "RAM"
+msgstr "RAM"
+
+#: lexvm.py
+msgid "vCPUs"
+msgstr "vCPUs"
+
+#: lexvm.py
+msgid "Disk"
+msgstr "ディスク"
+
+#: lexvm.py
+msgid "Existing disks / VMs"
+msgstr "既存のディスク / VM"
+
+#: lexvm.py
+msgid "Select an existing disk to populate VM name and boot mode, then launch."
+msgstr "既存のディスクを選択して VM 名とブートモードを設定し、起動してください。"
+
+#: lexvm.py
+msgid "Delete VM"
+msgstr "VM を削除"
+
+#: lexvm.py
+msgid "Launch VM"
+msgstr "VM を起動"
+
+#: lexvm.py
+msgid "Exit"
+msgstr "終了"
+
+#: lexvm.py
+msgid "File"
+msgstr "ファイル"
+
+#: lexvm.py
+msgid "Help"
+msgstr "ヘルプ"
+
+#: lexvm.py
+msgid "About"
+msgstr "バージョン情報"
+
+#: lexvm.py
+msgid "About LexVM"
+msgstr "LexVM について"
+
+#: lexvm.py
+msgid "Help placeholder. We can add full documentation here later."
+msgstr "ヘルプのプレースホルダー。後で完全なドキュメントをここに追加できます。"
+
+#: lexvm.py
+msgid "About placeholder. Version and credits can be added later."
+msgstr "プレースホルダー。バージョンとクレジットは後で追加できます。"
+
+#: lexvm.py
+msgid "Select ISO image"
+msgstr "ISO イメージを選択"
+
+#: lexvm.py
+msgid "Select"
+msgstr "選択"
+
+#: lexvm.py
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: lexvm.py
+msgid "ISO images"
+msgstr "ISO イメージ"
+
+#: lexvm.py
+msgid "Select VM directory"
+msgstr "VM ディレクトリを選択"
+
+#: lexvm.py
+msgid "Not required in run mode"
+msgstr "実行モードでは不要"
+
+#: lexvm.py
+msgid "{} cores"
+msgstr "{} コア"
+
+#: lexvm.py
+msgid "Close"
+msgstr "閉じる"
+
+#: lexvm.py
+msgid "Disk already exists"
+msgstr "ディスクは既に存在します"
+
+#: lexvm.py
+msgid "Overwrite existing virtual disk and continue install?"
+msgstr "既存の仮想ディスクを上書きしてインストールを続行しますか？"
+
+#: lexvm.py
+msgid "Overwrite"
+msgstr "上書き"
+
+#: lexvm.py
+msgid "Delete VM from disk"
+msgstr "ディスクから VM を削除"
+
+#: lexvm.py
+msgid "The selected VM disk will be permanently deleted:\n\n"
+msgstr "選択した VM ディスクは完全に削除されます：\n\n"
+
+#: lexvm.py
+msgid "\n\nAssociated firmware state will also be removed."
+msgstr "\n\n関連するファームウェアの状態も削除されます。"
+
+#: lexvm.py
+msgid "Delete"
+msgstr "削除"
+
+#: lexvm.py
+msgid "Deleted VM disk: {}"
+msgstr "VM ディスクを削除しました: {}"
+
+#: lexvm.py
+msgid "Delete failed"
+msgstr "削除に失敗しました"
+
+#: lexvm.py
+msgid "Selected existing disk: {}"
+msgstr "既存のディスクを選択しました: {}"
+
+#: lexvm.py
+msgid "Virtual disk not found"
+msgstr "仮想ディスクが見つかりません"
+
+#: lexvm.py
+msgid "Install the VM first or adjust VM name/boot mode."
+msgstr "最初に VM をインストールするか、VM 名/ブートモードを調整してください。"
+
+#: lexvm.py
+msgid "VM launched"
+msgstr "VM を起動しました"
+
+#: lexvm.py
+msgid "QEMU error"
+msgstr "QEMU エラー"
+
+#: lexvm.py
+msgid "Unexpected error"
+msgstr "予期しないエラー"
+
+#: lexvm.py
+msgid "No virtual disks found in selected directory."
+msgstr "選択したディレクトリに仮想ディスクが見つかりません。"
+
+#: lexvm.py
+msgid "Dependency missing: {}"
+msgstr "依存関係が不足しています: {}"
+
+#: lexvm.py
+msgid "UEFI firmware missing: install package ovmf"
+msgstr "UEFI ファームウェアがありません: ovmf パッケージをインストールしてください"
+
+#: lexvm.py
+msgid "Select an ISO image for install mode"
+msgstr "インストールモード用の ISO イメージを選択してください"
+
+#: lexvm.py
+msgid "Selected ISO path is invalid"
+msgstr "選択した ISO パスが無効です"
+
+#: lexvm.py
+msgid "VM name is required"
+msgstr "VM 名が必要です"
+
+#: lexvm.py
+msgid "VM name cannot include '/'"
+msgstr "VM 名に '/' を含めることはできません"
+
+#: lexvm.py
+msgid "Cannot launch VM"
+msgstr "VM を起動できません"

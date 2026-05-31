@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lexvm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-16 00:00+0000\n"
+"PO-Revision-Date: 2026-05-16 00:00+0000\n"
+"Last-Translator: Alexia Steinberg\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lexvm.py
+msgid "LexVM - A Virtual Machine Creator"
+msgstr "LexVM - Een virtuele machine-aanmaker"
+
+#: lexvm.py
+msgid "Action"
+msgstr "Actie"
+
+#: lexvm.py
+msgid "Mode"
+msgstr "Modus"
+
+#: lexvm.py
+msgid "Install"
+msgstr "Installeren"
+
+#: lexvm.py
+msgid "Run"
+msgstr "Uitvoeren"
+
+#: lexvm.py
+msgid "Paths"
+msgstr "Paden"
+
+#: lexvm.py
+msgid "ISO image"
+msgstr "ISO-afbeelding"
+
+#: lexvm.py
+msgid "No image selected"
+msgstr "Geen afbeelding geselecteerd"
+
+#: lexvm.py
+msgid "Choose ISO image"
+msgstr "ISO-afbeelding kiezen"
+
+#: lexvm.py
+msgid "Not selected"
+msgstr "Niet geselecteerd"
+
+#: lexvm.py
+msgid "Virtual disk directory"
+msgstr "Virtuele schijfmap"
+
+#: lexvm.py
+msgid "Choose virtual disk directory"
+msgstr "Virtuele schijfmap kiezen"
+
+#: lexvm.py
+msgid "Virtual machine"
+msgstr "Virtuele machine"
+
+#: lexvm.py
+msgid "VM name"
+msgstr "VM-naam"
+
+#: lexvm.py
+msgid "Boot mode"
+msgstr "Opstartmodus"
+
+#: lexvm.py
+msgid "UEFI (Recommended)"
+msgstr "UEFI (Aanbevolen)"
+
+#: lexvm.py
+msgid "Resources"
+msgstr "Hulpbronnen"
+
+#: lexvm.py
+msgid "RAM"
+msgstr "RAM"
+
+#: lexvm.py
+msgid "vCPUs"
+msgstr "vCPUs"
+
+#: lexvm.py
+msgid "Disk"
+msgstr "Schijf"
+
+#: lexvm.py
+msgid "Existing disks / VMs"
+msgstr "Bestaande schijven / VM's"
+
+#: lexvm.py
+msgid "Select an existing disk to populate VM name and boot mode, then launch."
+msgstr "Selecteer een bestaande schijf om de VM-naam en opstartmodus in te vullen en start dan."
+
+#: lexvm.py
+msgid "Delete VM"
+msgstr "VM verwijderen"
+
+#: lexvm.py
+msgid "Launch VM"
+msgstr "VM starten"
+
+#: lexvm.py
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: lexvm.py
+msgid "File"
+msgstr "Bestand"
+
+#: lexvm.py
+msgid "Help"
+msgstr "Help"
+
+#: lexvm.py
+msgid "About"
+msgstr "Over"
+
+#: lexvm.py
+msgid "About LexVM"
+msgstr "Over LexVM"
+
+#: lexvm.py
+msgid "Help placeholder. We can add full documentation here later."
+msgstr "Tijdelijke aanduiding. Volledige documentatie kan hier later worden toegevoegd."
+
+#: lexvm.py
+msgid "About placeholder. Version and credits can be added later."
+msgstr "Tijdelijke aanduiding. Versie en credits kunnen later worden toegevoegd."
+
+#: lexvm.py
+msgid "Select ISO image"
+msgstr "ISO-afbeelding selecteren"
+
+#: lexvm.py
+msgid "Select"
+msgstr "Selecteren"
+
+#: lexvm.py
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: lexvm.py
+msgid "ISO images"
+msgstr "ISO-afbeeldingen"
+
+#: lexvm.py
+msgid "Select VM directory"
+msgstr "VM-map selecteren"
+
+#: lexvm.py
+msgid "Not required in run mode"
+msgstr "Niet vereist in uitvoeringsmodus"
+
+#: lexvm.py
+msgid "{} cores"
+msgstr "{} kernen"
+
+#: lexvm.py
+msgid "Close"
+msgstr "Sluiten"
+
+#: lexvm.py
+msgid "Disk already exists"
+msgstr "Schijf bestaat al"
+
+#: lexvm.py
+msgid "Overwrite existing virtual disk and continue install?"
+msgstr "Bestaande virtuele schijf overschrijven en installatie voortzetten?"
+
+#: lexvm.py
+msgid "Overwrite"
+msgstr "Overschrijven"
+
+#: lexvm.py
+msgid "Delete VM from disk"
+msgstr "VM van schijf verwijderen"
+
+#: lexvm.py
+msgid "The selected VM disk will be permanently deleted:\n\n"
+msgstr "De geselecteerde VM-schijf wordt permanent verwijderd:\n\n"
+
+#: lexvm.py
+msgid "\n\nAssociated firmware state will also be removed."
+msgstr "\n\nDe bijbehorende firmware-toestand wordt ook verwijderd."
+
+#: lexvm.py
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: lexvm.py
+msgid "Deleted VM disk: {}"
+msgstr "VM-schijf verwijderd: {}"
+
+#: lexvm.py
+msgid "Delete failed"
+msgstr "Verwijderen mislukt"
+
+#: lexvm.py
+msgid "Selected existing disk: {}"
+msgstr "Bestaande schijf geselecteerd: {}"
+
+#: lexvm.py
+msgid "Virtual disk not found"
+msgstr "Virtuele schijf niet gevonden"
+
+#: lexvm.py
+msgid "Install the VM first or adjust VM name/boot mode."
+msgstr "Installeer eerst de VM of pas VM-naam/opstartmodus aan."
+
+#: lexvm.py
+msgid "VM launched"
+msgstr "VM gestart"
+
+#: lexvm.py
+msgid "QEMU error"
+msgstr "QEMU-fout"
+
+#: lexvm.py
+msgid "Unexpected error"
+msgstr "Onverwachte fout"
+
+#: lexvm.py
+msgid "No virtual disks found in selected directory."
+msgstr "Geen virtuele schijven gevonden in de geselecteerde map."
+
+#: lexvm.py
+msgid "Dependency missing: {}"
+msgstr "Afhankelijkheid ontbreekt: {}"
+
+#: lexvm.py
+msgid "UEFI firmware missing: install package ovmf"
+msgstr "UEFI-firmware ontbreekt: installeer pakket ovmf"
+
+#: lexvm.py
+msgid "Select an ISO image for install mode"
+msgstr "Selecteer een ISO-afbeelding voor installatiemodus"
+
+#: lexvm.py
+msgid "Selected ISO path is invalid"
+msgstr "Geselecteerd ISO-pad is ongeldig"
+
+#: lexvm.py
+msgid "VM name is required"
+msgstr "VM-naam is vereist"
+
+#: lexvm.py
+msgid "VM name cannot include '/'"
+msgstr "VM-naam mag '/' niet bevatten"
+
+#: lexvm.py
+msgid "Cannot launch VM"
+msgstr "Kan VM niet starten"

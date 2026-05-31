@@ -1,0 +1,12 @@
+lexvm (1.0.3) unstable; urgency=medium
+
+  * Default virtual disk directory to the user's home directory
+  * Replace the oversized SVG with a clean app icon
+
+ -- Alexia Steinberg <alexia@goldendoglinux.org>  Sat, 16 May 2026 00:30:00 -0300
+
+lexvm (1.0.0) unstable; urgency=medium
+
+  * Initial release
+
+ -- Alexia Steinberg <alexia@goldendoglinux.org>  Fri, 16 May 2026 00:00:00 -0300

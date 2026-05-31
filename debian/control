@@ -1,0 +1,31 @@
+Source: lexvm
+Section: admin
+Priority: optional
+Maintainer: Alexia Steinberg <alexia@goldendoglinux.org>
+Build-Depends: debhelper-compat (= 13),
+               python3,
+               gettext
+Standards-Version: 4.6.0
+Homepage: https://goldendoglinux.org
+
+Package: lexvm
+Architecture: all
+Depends: ${misc:Depends},
+         python3,
+         python3-gi,
+         gir1.2-gtk-4.0,
+         gir1.2-adw-1,
+         qemu-system-x86,
+         qemu-utils,
+         ovmf
+Description: A virtual machine creator for x86-64 guests
+ A modern virtual machine creator built with GTK4 and libadwaita that
+ lets users install and launch QEMU/KVM virtual machines with ease.
+ .
+ Features:
+  - Multi-language support (8 languages)
+  - Install and run modes for QEMU/KVM virtual machines
+  - UEFI and BIOS boot mode support
+  - Configurable RAM, vCPUs and disk size
+  - Existing VM disk browser with right-click delete
+  - Clean, responsive Adwaita design

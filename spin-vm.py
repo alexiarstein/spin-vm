@@ -25,7 +25,7 @@ def run_command(cmd, capture_output=False, shell=False):
 def check_dependencies():
     deps = ["qemu-system-x86_64", "qemu-img", "dialog"]
     missing = [d for d in deps if shutil.which(d) is None]
-    
+
     # Check for UEFI firmware if needed later, but basic ones first
     if not os.path.exists(OVMF_CODE):
         missing.append("ovmf")
@@ -36,10 +36,13 @@ def check_dependencies():
         if choice.lower() == 'y':
             packages = []
             for m in missing:
-                if m == "ovmf": packages.append("ovmf")
-                elif m.startswith("qemu"): packages.append("qemu-system-x86")
-                else: packages.append(m)
-            
+                if m == "ovmf":
+                    packages.append("ovmf")
+                elif m.startswith("qemu"):
+                    packages.append("qemu-system-x86")
+                else:
+                    packages.append(m)
+
             # Remove duplicates
             packages = list(set(packages))
             print(f"Installing: {packages}")
@@ -76,7 +79,7 @@ def dialog_menu(title, prompt, choices, height=15, width=60):
     flattened = []
     for tag, item in choices:
         flattened.extend([tag, item])
-    
+
     cmd = ["dialog", "--backtitle", BACKTITLE, "--title", title, "--menu", prompt, str(height), str(width), str(len(choices))] + flattened
     result = subprocess.run(cmd, stderr=subprocess.PIPE, text=True)
     if result.returncode == 0:
@@ -105,9 +108,9 @@ def browse_path(start_path, select_dir=False, title="Browse"):
         # Add special option for directory selection
         if select_dir:
             choices.append((".", f"--> SELECT THIS DIRECTORY: {current_path} <--"))
-        
+
         choices.append(("..", "../ (Go Up)"))
-        
+
         # Sort directories first, then files
         dirs = sorted([d for d in items if os.path.isdir(os.path.join(current_path, d))])
         files = sorted([f for f in items if os.path.isfile(os.path.join(current_path, f))])
@@ -122,7 +125,7 @@ def browse_path(start_path, select_dir=False, title="Browse"):
 
         if selection is None: # Cancel
             return None
-        
+
         if selection == ".":
             return current_path
         elif selection == "..":
@@ -188,7 +191,7 @@ def main():
 
     if mode == "install":
         print(f"Starting INSTALL mode ({'UEFI' if is_uefi else 'BIOS'})")
-        
+
         # Create Disk
         if os.path.exists(disk_path):
             if dialog_yesno("Disk Exists", f"Disk {disk_path} already exists. Overwrite?"):
@@ -196,8 +199,8 @@ def main():
             else:
                 print("Aborting.")
                 sys.exit(1)
-        
-        run_command(["qemu-img", "create", "-f", "qcow2", disk_path, "20G"])
+
+        run_command(["qemu-img", "create", "-f", "qcow2", disk_path, "40G"])
 
         if is_uefi:
             if os.path.exists(vars_path):
@@ -205,15 +208,15 @@ def main():
             shutil.copy(OVMF_VARS_TEMPLATE, vars_path)
 
         qemu_args.extend(["-cdrom", iso_path, "-boot", "order=d"])
-    
+
     else: # Run mode
         if not os.path.exists(disk_path):
             print(f"Disk not found: {disk_path}. Run install first.")
             sys.exit(1)
-        
+
         print(f"Starting RUN mode ({'UEFI' if is_uefi else 'BIOS'})")
         qemu_args.extend(["-boot", "order=c"])
-    
+
 
     # Launch
     print(f"Launching QEMU: {' '.join(qemu_args)}")

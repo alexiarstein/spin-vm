@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LexVM
+Comment=A Virtual Machine Creator
+Exec=lexvm
+Icon=lexvm
+Terminal=false
+Type=Application
+Categories=System;Emulator;
